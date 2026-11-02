@@ -1,0 +1,6 @@
+{
+  "name": "GETINKED TATTOO Studio",
+  "description": "Premium custom tattoo artistry, fine-line ink, and professional body piercing studio. Open daily 10 AM - 11 PM with 24/7 appointment flexibility.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
