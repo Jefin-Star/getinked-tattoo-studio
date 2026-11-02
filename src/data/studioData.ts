@@ -4,7 +4,7 @@ export const STUDIO_CONFIG = {
   name: 'GETINKED TATTOO',
   tagline: 'Precision Needlecraft & Sacred Custom Body Art',
   subTagline: 'From minimalist delicate fine-lines to breathtaking hyper-realism and clinical-grade body piercing. Handcrafted permanently on your skin.',
-  logo: '/assets/aistudio/df138d9b-6a72-4ffb-9669-3080f00b47a1_c7db106c.jpg',
+  logo: './images/df138d9b-6a72-4ffb-9669-3080f00b47a1_c7db106c.jpg',
   
   // Contact details - easy to edit
   whatsapp: '63054 87457',
@@ -29,8 +29,8 @@ export const STUDIO_CONFIG = {
     directMapsUrl: 'https://maps.google.com/?q=GETINKED+TATTOO+STUDIO+Trivandrum'
   },
   
-  heroImage: '/src/assets/images/hero_tattoo_studio_craft_1793613375800.jpg',
-  interiorImage: '/src/assets/images/studio_interior_sanctuary_1793613377302.jpg',
+  heroImage: './images/hero_tattoo_studio_craft_1793613375800.jpg',
+  interiorImage: './images/studio_interior_sanctuary_1793613377302.jpg',
 };
 
 export const ARTISTS: Artist[] = [
@@ -40,7 +40,7 @@ export const ARTISTS: Artist[] = [
     role: 'Certified Tattoo Artist and Founder',
     experience: '7+ Years Experience',
     experienceHighlight: '7+ Years of Experience in Tattoo Artistry',
-    photoUrl: '/assets/aistudio/89723a27-5aaf-4f77-97c6-91ad5bac7fd6_13b8fa10.jpg',
+    photoUrl: './images/89723a27-5aaf-4f77-97c6-91ad5bac7fd6_13b8fa10.jpg',
     specialties: ['Black & Grey Realism', 'Sacred Geometry', 'Custom Freehand Typography & Script'],
     bio: 'Dedicated to transformative ink craft, Vishnu Lal blends mathematical precision with organic anatomical flow. Renowned for dark realism, flawless skin saturation, and hyper-detailed linework designed to maintain contrast and clarity over a lifetime.',
     instagram: 'https://www.instagram.com/vichu_here?srtk=MWZrc3IyMWgxeG55MA==',
@@ -60,9 +60,9 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     id: 'p1',
     title: 'Sacred Apex Lion & Metatron Geometry',
     category: 'realism',
-    imageUrl: '/src/assets/images/portfolio_black_grey_lion_1793613376581.jpg',
+    imageUrl: './images/portfolio_black_grey_lion_1793613376581.jpg',
     placement: 'Forearm (Outer Flexor)',
-    artist: 'Vishnu Lal ("Vichu")',
+    artist: 'Vishnu Lal',
     description: 'Hyper-detailed black and grey lion portrait enveloped in sacred geometry and stippled dotwork. Crafted using 3RL precision micro-needles and grey wash gradients.',
     approxDuration: '6 Hours (Single Session)',
     tags: ['Realism', 'Sacred Geometry', 'Fine Needle']
@@ -71,9 +71,9 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     id: 'p2',
     title: 'Ethereal Wild Rose & Botanical Stem',
     category: 'fineline',
-    imageUrl: '/src/assets/images/portfolio_fineline_flora_1793613377278.jpg',
+    imageUrl: './images/portfolio_fineline_flora_1793613377278.jpg',
     placement: 'Inner Wrist & Forearm',
-    artist: 'Meera Nair',
+    artist: 'Vishnu Lal',
     description: 'Ultra-delicate single-needle botanical illustration capturing petals, thorns, and gentle leaf veins with organic featherweight shading.',
     approxDuration: '1.5 Hours',
     tags: ['Fine-Line', 'Botanical', 'Minimalist']
@@ -82,9 +82,9 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     id: 'p3',
     title: 'Ryu Dragon & Celestial Wave Current',
     category: 'oriental',
-    imageUrl: '/src/assets/images/portfolio_oriental_dragon_1793613378003.jpg',
+    imageUrl: './images/portfolio_oriental_dragon_1793613378003.jpg',
     placement: 'Full Forearm Sleeve',
-    artist: 'Arjun K.',
+    artist: 'Vishnu Lal',
     description: 'Classic Asian neo-traditional dragon ascending through heavy graphite froth and crashing oceanic waves. Rich depth and needle saturation built for lifetime longevity.',
     approxDuration: '7 Hours (Two Sessions)',
     tags: ['Neo-Traditional', 'Oriental', 'Dragon Sleeve']
@@ -93,9 +93,9 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     id: 'p4',
     title: 'Anatomical Precision Studio Session',
     category: 'realism',
-    imageUrl: '/src/assets/images/hero_tattoo_studio_craft_1793613375800.jpg',
+    imageUrl: './images/hero_tattoo_studio_craft_1793613375800.jpg',
     placement: 'Upper Bicep & Shoulder Wrap',
-    artist: 'Vishnu Lal ("Vichu")',
+    artist: 'Vishnu Lal',
     description: 'In-progress custom script and baroque filigree work performed under clinical amber spotlighting with custom rotary coil balance.',
     approxDuration: 'Custom Session',
     tags: ['In-Progress', 'Script', 'Baroque']
@@ -104,9 +104,9 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     id: 'p5',
     title: 'Sterile Piercing & Titanium Jewelry Craft',
     category: 'piercing',
-    imageUrl: '/src/assets/images/studio_interior_sanctuary_1793613377302.jpg',
+    imageUrl: './images/studio_interior_sanctuary_1793613377302.jpg',
     placement: 'Helix, Nostril & Septum',
-    artist: 'Meera Nair',
+    artist: 'Vishnu Lal',
     description: 'Precision needle-punched body piercing utilizing implant-grade ASTM F-136 titanium internally threaded posts for swift, irritation-free healing.',
     approxDuration: '20 Minutes',
     tags: ['Piercing', 'Titanium', 'Sterile Suite']
