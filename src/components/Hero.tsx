@@ -119,7 +119,7 @@ export const Hero: React.FC<HeroProps> = ({ onBookClick, onPortfolioClick }) => 
           <div className="flex flex-col space-y-1">
             <span className="text-xs uppercase tracking-wider text-zinc-400">Flexible Scheduling</span>
             <span className="text-xl sm:text-2xl font-bold font-['Cinzel'] text-zinc-100">24/7 Access</span>
-            <span className="text-xs text-zinc-400">Pre-booked VIP appointments</span>
+            <span className="text-xs text-zinc-400">Pre-booked appointments</span>
           </div>
 
           <div className="flex flex-col space-y-1">
